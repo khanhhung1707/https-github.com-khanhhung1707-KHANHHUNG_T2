@@ -1,0 +1,114 @@
+.navbar-inverse {
+    background-color:orangered; 
+    border-color:orangered;
+    margin-top: 5px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+}
+.row
+{
+    display: flex;
+}
+
+.row p
+{
+    margin-left: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight:bold ;
+   
+}
+
+.row p a
+{
+    color: orangered;
+    font-size: 15px;
+
+}
+.row input
+{
+    width: 350px;
+    margin-left: 30px;
+    height: 35px;
+    border: none;
+    text-align: center;
+    color: black;
+    background-color: rgba(240, 234, 234, 0.363);
+    border-radius: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    color: #fff;
+    background-color: #FF4C22;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.panel-prod
+{
+    margin-top: 15px;
+}
+
+.panel-heading-prod
+{
+    font-weight: bold;
+}
+
+.caption
+{
+    text-align: center;
+}
+
+.more-prod
+{
+    text-align: right;
+    color: #156388;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.more-prod>a
+{
+    text-decoration: none;
+}
+
+.panel-post
+{
+    margin-right: -25px;
+}
+
+.panel-body-post
+{
+    text-align: justify;
+}
+
+.img-adv
+{
+    text-align: center;
+    width: 100%;
+}
+
+.container-footer
+{
+    background-color:orangered;
+    color:white;
+    padding-bottom: 15px;
+}
+
+.info,
+.info:hover
+{
+    text-decoration: none;
+    color: #fff;
+}

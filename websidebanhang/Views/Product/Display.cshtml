@@ -1,0 +1,8 @@
+﻿@model websidebanhang.Models.Product
+<h2>@Model.Name</h2>
+<img src="@Model.ImageUrl" alt="Product Image" />
+@foreach (var imageUrl in Model.ImageUrls)
+{
+    <img src="@imageUrl" alt="Product Image" />
+}
+
